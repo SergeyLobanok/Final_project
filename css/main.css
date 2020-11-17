@@ -1,0 +1,506 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 120px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+}
+
+h1 {
+  width: 500px;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+h2 {
+  max-width: 680px;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 65px;
+  /* identical to box height, or 116% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  margin: 0 auto;
+  margin-top: 27px;
+}
+
+h3 {
+  color: #F3CD03;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 36px;
+  line-height: 42px;
+  /* identical to box height, or 117% */
+  letter-spacing: 0.1px;
+  margin-top: 75px;
+}
+
+p {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  width: 530px;
+  color: #5C5C5C;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 120px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.head .logo {
+  width: 186px;
+  height: 60px;
+}
+
+.head .logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.head .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.head .nav ul, .head .nav li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 51px;
+  line-height: 60px;
+}
+
+.head .nav ul a, .head .nav li a {
+  text-decoration: none;
+  color: #20262A;
+}
+
+.head .login {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 60px;
+  padding-top: 20px;
+}
+
+.login button {
+  border: 1px solid #00B6F0;
+  color: #00B6F0;
+  border-radius: 85px;
+  width: 140px;
+  height: 52px;
+  top: calc(50% - 52px/2 - 0.5px);
+  background-color: white;
+  position: static;
+  padding: 20px 36px;
+}
+
+.prototyping {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(7.62%, rgba(255, 255, 255, 0.22)), color-stop(25.5%, rgba(0, 225, 198, 0.06)), color-stop(70.92%, #FFFFFF));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 198, 0.06) 25.5%, #FFFFFF 70.92%);
+}
+
+.buttons {
+  width: 420px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+button {
+  width: 192px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  border-radius: 85px;
+}
+
+.button-dark {
+  background: #00B6F0;
+  color: #ffffff;
+  border-color: #00B6f0;
+}
+
+.button-white {
+  background: #FFFFFF;
+  color: #000000;
+  border-color: #FFFFFF;
+}
+
+.button-dark-white {
+  border-color: #00B6f0;
+  color: #00B6f0;
+  background: #FFFFFF;
+}
+
+.dashboard {
+  width: 1120px;
+  height: 720px;
+  position: relative;
+}
+
+.dashboard img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.vector-blue {
+  position: absolute;
+  left: 0;
+  padding-top: 150px;
+}
+
+.vector-yellow {
+  position: absolute;
+  right: 0;
+  margin-top: 250px;
+}
+
+.type {
+  margin-top: 70px;
+}
+
+h4 {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 36px;
+  line-height: 42px;
+  /* identical to box height, or 117% */
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+
+h5 {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 38px;
+  /* or 158% */
+  letter-spacing: 0.2px;
+  text-align: left;
+  width: 430px;
+}
+
+a {
+  text-decoration: none;
+  color: #00B6F0;
+}
+
+.features > img {
+  position: absolute;
+  right: 0;
+  margin-top: 45px;
+}
+
+.features {
+  position: relative;
+}
+
+.features-image {
+  width: 516px;
+}
+
+.features-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.Veriable > img {
+  position: absolute;
+  margin-top: 50px;
+}
+
+.container.features {
+  padding-top: 121px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container.Veriable {
+  padding-top: 121px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.Veriable-content {
+  display: column;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+}
+
+.work > p {
+  width: 680px;
+  font-weight: 450;
+  font-size: 19px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.work-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 780px;
+  margin-top: 60px;
+}
+
+.work-line-white {
+  background: #F3F5F8;
+  width: 800px;
+  height: 15px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 8px;
+}
+
+.work-line-blue {
+  background: #00B6F0;
+  width: 400px;
+  height: 15px;
+  border-radius: 8px;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.button {
+  width: 270px;
+  margin: 0 auto;
+  margin-top: 71px;
+  padding: 20px 36px;
+}
+
+.tests h2 {
+  margin-top: 170px;
+}
+
+.tests .ibm {
+  width: 150px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.tests .ibm img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.tests p {
+  font-size: 19px;
+  line-height: 30px;
+  margin-top: 80px;
+}
+
+.tests button {
+  margin-bottom: 110px;
+}
+
+.user {
+  width: 190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.user .content {
+  width: 130px;
+}
+
+.user .content p {
+  margin-top: 0;
+  width: 125px;
+}
+
+.user .content .first-text {
+  color: #20262A;
+}
+
+.pricing {
+  background: #182333;
+}
+
+.pricing .container.pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pricing .container.pricing .pricing-desc {
+  margin-top: 100px;
+}
+
+.pricing .container.pricing .pricing-desc h2, .pricing .container.pricing .pricing-desc p {
+  color: white;
+  text-align: left;
+}
+
+.pricing .container.pricing .pricing-content {
+  margin-top: 100px;
+}
+
+.pricing .container.pricing .pricing-content p {
+  text-align: left;
+  color: white;
+  margin-top: 0;
+}
+
+.pricing .container.pricing .pricing-content .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 235px;
+}
+
+.focus {
+  background: -webkit-gradient(linear, left top, left bottom, from(#E9FAFF), to(rgba(233, 250, 255, 0)));
+  background: linear-gradient(180deg, #E9FAFF 0%, rgba(233, 250, 255, 0) 100%);
+}
+
+.focus .container.focus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.focus .focus-content {
+  width: 426px;
+}
+
+.focus .focus-content button {
+  margin-bottom: 160px;
+}
+
+.focus h2 {
+  margin-top: 0;
+  padding-top: 90px;
+  text-align: left;
+  font-weight: 450;
+  font-size: 36px;
+  width: 390px;
+  margin-left: 0;
+  margin-right: 111px;
+}
+
+.focus p {
+  text-align: left;
+  font-weight: 450;
+  font-size: 19px;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+
+.logo-name {
+  width: 250px;
+}
+
+h6 {
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  letter-spacing: 0.1px;
+  margin: 0;
+}
+
+.social {
+  width: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social .social-button {
+  width: 41px;
+  height: 33px;
+  margin-right: 40px;
+}
+
+.social .social-button img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+/*# sourceMappingURL=main.css.map */
