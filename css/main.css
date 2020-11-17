@@ -3,7 +3,8 @@
           box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -58,7 +59,7 @@ h2 {
 }
 
 h3 {
-  color: #F3CD03;
+  color: #f3cd03;
   margin: 0 auto;
   text-align: center;
   font-family: "Circular Std";
@@ -80,7 +81,7 @@ p {
   text-align: center;
   letter-spacing: 0.2px;
   width: 530px;
-  color: #5C5C5C;
+  color: #5c5c5c;
   margin: 0 auto;
   margin-top: 40px;
 }
@@ -113,7 +114,8 @@ p {
   display: flex;
 }
 
-.head .nav ul, .head .nav li {
+.head .nav ul,
+.head .nav li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,9 +123,10 @@ p {
   line-height: 60px;
 }
 
-.head .nav ul a, .head .nav li a {
+.head .nav ul a,
+.head .nav li a {
   text-decoration: none;
-  color: #20262A;
+  color: #20262a;
 }
 
 .head .login {
@@ -141,20 +144,20 @@ p {
 }
 
 .login button {
-  border: 1px solid #00B6F0;
-  color: #00B6F0;
+  border: 1px solid #00b6f0;
+  color: #00b6f0;
   border-radius: 85px;
   width: 140px;
   height: 52px;
-  top: calc(50% - 52px/2 - 0.5px);
+  top: calc(50% - 52px / 2 - 0.5px);
   background-color: white;
   position: static;
   padding: 20px 36px;
 }
 
 .prototyping {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(7.62%, rgba(255, 255, 255, 0.22)), color-stop(25.5%, rgba(0, 225, 198, 0.06)), color-stop(70.92%, #FFFFFF));
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 198, 0.06) 25.5%, #FFFFFF 70.92%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(7.62%, rgba(255, 255, 255, 0.22)), color-stop(25.5%, rgba(0, 225, 198, 0.06)), color-stop(70.92%, #ffffff));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 198, 0.06) 25.5%, #ffffff 70.92%);
 }
 
 .buttons {
@@ -172,21 +175,21 @@ button {
 }
 
 .button-dark {
-  background: #00B6F0;
+  background: #00b6f0;
   color: #ffffff;
-  border-color: #00B6f0;
+  border-color: #00b6f0;
 }
 
 .button-white {
-  background: #FFFFFF;
+  background: #ffffff;
   color: #000000;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
 }
 
 .button-dark-white {
-  border-color: #00B6f0;
-  color: #00B6f0;
-  background: #FFFFFF;
+  border-color: #00b6f0;
+  color: #00b6f0;
+  background: #ffffff;
 }
 
 .dashboard {
@@ -243,7 +246,7 @@ h5 {
 
 a {
   text-decoration: none;
-  color: #00B6F0;
+  color: #00b6f0;
 }
 
 .features > img {
@@ -317,7 +320,7 @@ a {
 }
 
 .work-line-white {
-  background: #F3F5F8;
+  background: #f3f5f8;
   width: 800px;
   height: 15px;
   margin: 0 auto;
@@ -326,7 +329,7 @@ a {
 }
 
 .work-line-blue {
-  background: #00B6F0;
+  background: #00b6f0;
   width: 400px;
   height: 15px;
   border-radius: 8px;
@@ -340,6 +343,10 @@ a {
   margin: 0 auto;
   margin-top: 71px;
   padding: 20px 36px;
+}
+
+.tests {
+  position: relative;
 }
 
 .tests img {
@@ -404,7 +411,7 @@ a {
 }
 
 .user .content .first-text {
-  color: #20262A;
+  color: #20262a;
 }
 
 .pricing {
@@ -422,9 +429,11 @@ a {
 
 .pricing .container.pricing .pricing-desc {
   margin-top: 100px;
+  margin-bottom: 200px;
 }
 
-.pricing .container.pricing .pricing-desc h2, .pricing .container.pricing .pricing-desc p {
+.pricing .container.pricing .pricing-desc h2,
+.pricing .container.pricing .pricing-desc p {
   color: white;
   text-align: left;
 }
@@ -439,16 +448,22 @@ a {
   margin-top: 0;
 }
 
+.pricing .container.pricing .pricing-content button {
+  margin-top: 20px;
+}
+
 .pricing .container.pricing .pricing-content .price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 235px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .focus {
-  background: -webkit-gradient(linear, left top, left bottom, from(#E9FAFF), to(rgba(233, 250, 255, 0)));
-  background: linear-gradient(180deg, #E9FAFF 0%, rgba(233, 250, 255, 0) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#e9faff), to(rgba(233, 250, 255, 0)));
+  background: linear-gradient(180deg, #e9faff 0%, rgba(233, 250, 255, 0) 100%);
 }
 
 .focus .container.focus {
@@ -489,7 +504,7 @@ a {
 }
 
 h6 {
-  font-family: Circular Std;
+  font-family: "Circular Std";
   font-style: normal;
   font-weight: 450;
   font-size: 18px;

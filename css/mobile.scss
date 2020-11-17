@@ -1,92 +1,129 @@
-@media only screen and (max-width: 506px){
-    *{
-        box-sizing: border-box;
-    }
-    
-    body,html{
-        margin: 0;
-        padding: 0;
-    }
-    header{
-        height: 108px;
-        width: 506px;
-    }
-    .logo{
-        position: relative;
-    }
-    .nav ul,li a{
-        display:none;
-        width:100px;
-        justify-content: flex-end;
-    }
-    .login{
-        justify-content: center;
-    }
-    .container{
-        width:500px;
-    }
-    h1{
-        width:375px;
-        font-family: "Circular Std";
-        font-style: normal;
-        font-weight: bold;
-        font-size: 56px;
-        line-height: 65px;
-        /* or 116% */
-        text-align: center;
-        letter-spacing: 0.2px;
-    }
-    h2{
-        width: 322px;
-        text-align: center;
-    }
-    p{
-        width:323px;
-    }
-    .vector-blue {
-        width: 19%;
-    }
-    .buttons {
-        flex-direction: column;
-        text-align: center;
-        button{
-            width:311px;
-            margin-top:13px;
-        }
-    }
-    .vector-yellow{
-        margin-top:600px;
-        width:27%;
-        height: 330px;
-    }
-    .dashboard {
-        width:445px;
-        margin-left: 0 ;
+@media only screen and (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+  }
 
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    height: 108px;
+    width: 100%;
+  }
+  .logo {
+    position: relative;
+  }
+  .nav ul,
+  li a {
+    display: none;
+    width: 100px;
+    justify-content: flex-end;
+  }
+  .login {
+    justify-content: center;
+  }
+  .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  h1 {
+    width: 375px;
+    font-family: "Circular Std";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 65px;
+    /* or 116% */
+    text-align: center;
+    letter-spacing: 0.2px;
+  }
+  h2 {
+    width: 322px;
+    text-align: center;
+  }
+  p {
+    width: 323px;
+  }
+
+  .vector-blue {
+    width: 19%;
+  }
+  .buttons {
+    flex-direction: column;
+    text-align: center;
+    button {
+      width: 311px;
+      margin-top: 13px;
     }
-    h3{
-        width:152px;
+  }
+  .vector-yellow {
+    margin-top: 600px;
+    width: 27%;
+    height: 330px;
+  }
+  .dashboard {
+    width: 445px;
+    margin-left: 0;
+  }
+  h3 {
+    width: 152px;
+  }
+  .Veriable {
+    flex-direction: column;
+  }
+  .Veriable-image img {
+    text-align: center;
+    width: 392px;
+    height: 351px;
+  }
+
+  .pricing {
+    flex-direction: column;
+    text-align: center;
+    .pricing-desc {
+      text-align: center;
     }
-    .Veriable{
-        flex-direction: column;
+    .price {
+      margin: 0 auto;
     }
-    .Veriable-image img{
-        text-align: center;
-        width:392px;
-        height: 351px;
+    .price-content {
+      height: 76px;
+      line-height: 76px;
+      padding: 0;
     }
-    .pricing{
-        flex-direction: column;
-        text-align: center;
+    button {
+      margin-bottom: 50px;
     }
-    .focus {
-        flex-direction: column;
-        text-align: center;
-        h2{
-            text-align: center;
-        }
+  }
+  .focus {
+    flex-direction: column;
+    text-align: center;
+    h2 {
+      text-align: center;
     }
-    .footer >.container{
-        flex-direction: column;
+  }
+  .footer > .container {
+    flex-direction: column;
+  }
+  .work p {
+    width: 313px;
+  }
+  .features {
+    flex-direction: column;
+  }
+  .features-image {
+    width: 300px;
+  }
+  .work-line {
+    width: 315px;
+    .work-line-white {
+      width: 100%;
     }
+    .work-line-blue {
+      width: 222px;
+    }
+  }
 }
