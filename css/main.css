@@ -172,6 +172,7 @@ button {
   left: 0px;
   top: 0px;
   border-radius: 85px;
+  outline: none;
 }
 
 .button-dark {
