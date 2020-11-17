@@ -342,6 +342,10 @@ a {
   padding: 20px 36px;
 }
 
+.tests img {
+  left: 0;
+}
+
 .tests h2 {
   margin-top: 170px;
 }
@@ -363,7 +367,7 @@ a {
 .tests p {
   font-size: 19px;
   line-height: 30px;
-  margin-top: 80px;
+  margin-top: 0px;
 }
 
 .tests button {
