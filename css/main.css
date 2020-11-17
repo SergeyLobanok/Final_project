@@ -344,6 +344,11 @@ a {
 
 .tests img {
   left: 0;
+  position: absolute;
+}
+
+.tests .dark-blue-grey {
+  right: 0;
 }
 
 .tests h2 {
@@ -355,6 +360,7 @@ a {
   height: 60px;
   margin: 0 auto;
   margin-top: 80px;
+  position: relative;
 }
 
 .tests .ibm img {
@@ -367,7 +373,7 @@ a {
 .tests p {
   font-size: 19px;
   line-height: 30px;
-  margin-top: 0px;
+  margin-top: 80px;
 }
 
 .tests button {
@@ -381,6 +387,11 @@ a {
   display: flex;
   margin: 0 auto;
   margin-top: 60px;
+  position: relative;
+}
+
+.user .user-img {
+  width: 40px;
 }
 
 .user .content {
