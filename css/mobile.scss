@@ -1,13 +1,5 @@
 @media only screen and (max-width: 600px) {
-  * {
-    box-sizing: border-box;
-  }
 
-  body,
-  html {
-    margin: 0;
-    padding: 0;
-  }
   header {
     height: 108px;
     width: 100%;
@@ -15,19 +7,46 @@
   .logo {
     position: relative;
   }
-  .nav ul,
-  li a {
-    display: none;
-    width: 100px;
-    justify-content: flex-end;
+  .head >.nav ul,
+  li  {
+    display:none;
+    width: 100%;
+    flex-direction: column;
   }
   .login {
     justify-content: center;
+    margin-right:50px;
   }
   .container {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .burger{
+    width: 50px;
+    height: 50px;
+    right: 0%;
+    top: 5%;
+    position: absolute;
+    cursor: pointer;
+    .line-hight{
+      width:26px;
+      height: 3px;
+      background:black;
+      margin: 3px;
+    }
+    .line-midlle{
+      width:20px;
+      height: 3px;
+      background:black;
+      margin: 3px;
+    }
+    .line-down{
+      width:15px;
+      height: 3px;
+      background:black;
+      margin: 3px;
+    }
   }
   h1 {
     width: 375px;
@@ -67,9 +86,12 @@
   .dashboard {
     width: 445px;
     margin-left: 0;
+    margin:0 auto;
+    height: auto;
   }
   h3 {
     width: 152px;
+    margin-top:155px;
   }
   .Veriable {
     flex-direction: column;
@@ -80,11 +102,13 @@
     height: 351px;
   }
 
-  .pricing {
+.pricing {
+  .container.pricing{
     flex-direction: column;
     text-align: center;
-    .pricing-desc {
-      text-align: center;
+    width: 100%;
+    .pricing-desc{
+      margin-bottom: 0;
     }
     .price {
       margin: 0 auto;
@@ -92,16 +116,26 @@
     .price-content {
       height: 76px;
       line-height: 76px;
+      margin:0 auto;
       padding: 0;
     }
     button {
       margin-bottom: 50px;
     }
   }
-  .focus {
+}
+  .container.focus {
     flex-direction: column;
-    text-align: center;
-    h2 {
+    align-items: center;
+    h2{
+      text-align: center;
+      margin-right:0 ;
+    }
+    .focus-content{
+      justify-content: center;
+      text-align: center;
+    }
+    button{
       text-align: center;
     }
   }
@@ -113,6 +147,10 @@
   }
   .features {
     flex-direction: column;
+    img{
+      margin:0 auto;
+    }
+    
   }
   .features-image {
     width: 300px;
@@ -126,4 +164,29 @@
       width: 222px;
     }
   }
+  .container.down{
+    width:100%;
+    flex-direction: column;
+    height: 620px;
+    display: visible;
+    align-items: center;
+    .logo-name {
+      margin-top:70px;
+      .logo{
+        margin:0 auto;
+      }
+    }
+    .nav{
+      display: visible;
+      flex-direction: column;
+      text-align: center;
+      ul,li{
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  }
 }
+
+
+
